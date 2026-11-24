@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<defs>
+<radialGradient id="bg" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#fff6dc"/><stop offset="1" stop-color="#f1dca6"/></radialGradient>
+<linearGradient id="sack" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9b77a"/><stop offset="1" stop-color="#a97f44"/></linearGradient>
+<linearGradient id="grain" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fffdf5"/><stop offset="1" stop-color="#ebdfc2"/></linearGradient>
+<g id="g"><ellipse rx="5" ry="13" fill="url(#grain)" stroke="#d6c59c" stroke-width=".8"/></g>
+</defs>
+<circle cx="300" cy="300" r="290" fill="url(#bg)"/>
+<!-- paddy stalks -->
+<g stroke="#7a8f3a" stroke-width="4" fill="none" stroke-linecap="round">
+<path d="M120 470 C130 360 150 260 200 170"/><path d="M480 470 C470 360 450 260 400 170"/>
+<path d="M150 470 C160 380 190 300 250 230"/><path d="M450 470 C440 380 410 300 350 230"/>
+</g>
+<g fill="#c9a23f">
+<ellipse cx="200" cy="170" rx="7" ry="14" transform="rotate(30 200 170)"/><ellipse cx="190" cy="195" rx="7" ry="14" transform="rotate(-20 190 195)"/><ellipse cx="212" cy="200" rx="7" ry="14" transform="rotate(40 212 200)"/><ellipse cx="176" cy="225" rx="7" ry="14" transform="rotate(-25 176 225)"/><ellipse cx="198" cy="232" rx="7" ry="14" transform="rotate(35 198 232)"/>
+<ellipse cx="400" cy="170" rx="7" ry="14" transform="rotate(-30 400 170)"/><ellipse cx="410" cy="195" rx="7" ry="14" transform="rotate(20 410 195)"/><ellipse cx="388" cy="200" rx="7" ry="14" transform="rotate(-40 388 200)"/><ellipse cx="424" cy="225" rx="7" ry="14" transform="rotate(25 424 225)"/><ellipse cx="402" cy="232" rx="7" ry="14" transform="rotate(-35 402 232)"/>
+</g>
+<!-- sack -->
+<path d="M210 230 Q300 200 390 230 L420 480 Q300 520 180 480 Z" fill="url(#sack)"/>
+<path d="M205 232 Q300 190 395 232 Q300 250 205 232Z" fill="#8c6532"/>
+<path d="M230 215 Q300 180 370 215" stroke="#6e4c22" stroke-width="6" fill="none"/>
+<rect x="225" y="320" width="150" height="90" rx="10" fill="#fff8e6" stroke="#6b4a1f" stroke-width="3"/>
+<text x="300" y="360" font-family="Noto Serif Bengali, serif" font-size="34" font-weight="700" text-anchor="middle" fill="#3f5a1e">ভাটেল</text>
+<text x="300" y="392" font-family="Noto Serif Bengali, serif" font-size="17" text-anchor="middle" fill="#6b4a1f">বটিয়াঘাটা, খুলনা</text>
+<!-- spilled rice -->
+<g>
+<use href="#g" x="160" y="505" transform="rotate(60 160 505)"/><use href="#g" x="185" y="520" transform="rotate(-30 185 520)"/><use href="#g" x="215" y="512" transform="rotate(80 215 512)"/><use href="#g" x="240" y="528" transform="rotate(10 240 528)"/><use href="#g" x="270" y="518" transform="rotate(-70 270 518)"/><use href="#g" x="300" y="532" transform="rotate(40 300 532)"/><use href="#g" x="330" y="520" transform="rotate(-20 330 520)"/><use href="#g" x="360" y="530" transform="rotate(75 360 530)"/><use href="#g" x="390" y="514" transform="rotate(-50 390 514)"/><use href="#g" x="420" y="524" transform="rotate(20 420 524)"/><use href="#g" x="445" y="506" transform="rotate(-80 445 506)"/><use href="#g" x="255" y="545" transform="rotate(90 255 545)"/><use href="#g" x="345" y="548" transform="rotate(-10 345 548)"/>
+</g>
+</svg>

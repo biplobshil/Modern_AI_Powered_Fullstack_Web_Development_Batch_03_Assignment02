@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+<rect width="500" height="400" rx="24" fill="#f6ecd2"/>
+<g stroke="#c9a23f" stroke-width="3" fill="none" opacity=".7" stroke-linecap="round">
+<path d="M200 110 q-15 -25 0 -50 q15 -25 0 -45"/><path d="M250 105 q-15 -25 0 -50 q15 -25 0 -45"/><path d="M300 110 q-15 -25 0 -50 q15 -25 0 -45"/>
+</g>
+<ellipse cx="250" cy="185" rx="150" ry="55" fill="#fffdf6"/>
+<g fill="#efe5cb">
+<ellipse cx="190" cy="170" rx="4" ry="10" transform="rotate(30 190 170)"/><ellipse cx="230" cy="160" rx="4" ry="10" transform="rotate(-40 230 160)"/><ellipse cx="270" cy="168" rx="4" ry="10" transform="rotate(70 270 168)"/><ellipse cx="310" cy="175" rx="4" ry="10" transform="rotate(-20 310 175)"/><ellipse cx="250" cy="190" rx="4" ry="10" transform="rotate(10 250 190)"/><ellipse cx="210" cy="195" rx="4" ry="10" transform="rotate(-70 210 195)"/><ellipse cx="290" cy="198" rx="4" ry="10" transform="rotate(50 290 198)"/><ellipse cx="160" cy="188" rx="4" ry="10" transform="rotate(80 160 188)"/><ellipse cx="340" cy="190" rx="4" ry="10" transform="rotate(-60 340 190)"/>
+</g>
+<path d="M100 190 Q110 330 250 335 Q390 330 400 190 Z" fill="#6b4a1f"/>
+<path d="M100 190 Q250 250 400 190" stroke="#8c6532" stroke-width="6" fill="none"/>
+<path d="M140 240 Q250 280 360 240" stroke="#c9a23f" stroke-width="4" fill="none"/>
+<ellipse cx="250" cy="345" rx="90" ry="12" fill="#4a3313" opacity=".25"/>
+</svg>
